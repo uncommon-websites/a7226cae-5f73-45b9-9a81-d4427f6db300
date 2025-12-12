@@ -6,10 +6,10 @@
   <!-- Content -->
   <div class="z-10 mx-auto max-w-4xl px-4 text-center mb-16">
     <h1 class="mb-6 text-5xl md:text-6xl lg:text-7xl font-serif text-gray-900 leading-tight">
-      Stop Wasting Your Team's Time
+      Replace Guesswork with Market Intelligence
     </h1>
     <p class="mx-auto mb-10 max-w-2xl text-lg text-gray-600 leading-relaxed">
-      Accelerate firm productivity, automate workflows, and unify financial data at scale with one secure platform
+      DealData delivers the benchmarking clarity you need to price syndicated loans with confidence—built for the middle market and club space
     </p>
     
     <div class="flex justify-center">
@@ -29,8 +29,8 @@
   <div class="relative w-full max-w-7xl mx-auto px-4">
     <div class="relative aspect-[21/9] w-full overflow-hidden rounded-lg shadow-2xl">
       <img 
-        src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2070&auto=format&fit=crop" 
-        alt="Financial District" 
+        src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=2070&auto=format&fit=crop" 
+        alt="Banking professionals analyzing data" 
         class="h-full w-full object-cover"
       />
       
@@ -41,9 +41,9 @@
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.44 11.05-9.19 9.19a6 6 0 0 1-8.49-8.49l9.19-9.19a4 4 0 0 1 5.66 5.66l-9.2 9.19a2 2 0 0 1-2.83-2.83l8.49-8.48"/></svg>
             </div>
             <div class="flex-1 font-mono text-sm text-gray-800">
-                benchmark revenue estimates for AAPL <span class="animate-pulse">|</span>
+                show me pricing comps for $150M club deal <span class="animate-pulse">|</span>
             </div>
-            <button class="flex h-8 w-8 items-center justify-center rounded-lg bg-[#1B4D3E] text-white hover:bg-[#153d31] transition-colors">
+            <button class="flex h-8 w-8 items-center justify-center rounded-lg bg-primary-700 text-white hover:bg-primary-800 transition-colors">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
             </button>
         </div>

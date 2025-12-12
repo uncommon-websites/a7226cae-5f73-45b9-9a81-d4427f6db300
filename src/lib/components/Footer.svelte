@@ -15,7 +15,7 @@
                     </svg>
                 </div>
                 <h2 class="text-4xl md:text-5xl font-serif text-gray-900 leading-tight">
-                    Unlock Financial AI<br />For Your Firm
+                    Stop Guessing.<br />Start Knowing.
                 </h2>
             </div>
             <div>
@@ -63,7 +63,7 @@
         <!-- Copyright -->
         <div class="text-center border-t border-gray-100 pt-8">
             <p class="text-[10px] font-mono uppercase tracking-widest text-gray-400">
-                © {currentYear} Rogo AI
+                © {currentYear} Synply
             </p>
         </div>
     </div>

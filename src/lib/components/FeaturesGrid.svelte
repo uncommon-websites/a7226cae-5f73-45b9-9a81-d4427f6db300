@@ -6,14 +6,14 @@
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div class="mb-16">
             <h2 class="text-4xl md:text-5xl font-serif text-gray-900 leading-tight">
-                AI That Learns How Your<br />Firm Thinks and Works
+                Built for Banks That<br />Structure Syndicated Loans
             </h2>
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <!-- Integrations -->
+            <!-- Structured Comps -->
             <div class="bg-gray-50 p-8 rounded-lg flex flex-col h-full">
-                <h3 class="text-lg font-serif text-gray-900 mb-8">Integrations</h3>
+                <h3 class="text-lg font-serif text-gray-900 mb-8">Structured Comps</h3>
                 <div class="flex-1 flex items-center justify-center mb-8">
                     <div class="grid grid-cols-3 gap-4">
                         {#each [1, 2, 3, 4, 5, 6] as i}
@@ -24,13 +24,13 @@
                     </div>
                 </div>
                 <p class="text-xs text-gray-500 leading-relaxed mt-auto">
-                    Connect seamlessly with your existing providers and file systems. Enhance your workflows by interacting with internal & external data sources.
+                    Anonymized, structured deal data organized by size, industry, leverage, and terms. Find relevant comps in seconds, not hours.
                 </p>
             </div>
 
-            <!-- Prompt Library -->
+            <!-- Market Intelligence -->
             <div class="bg-gray-50 p-8 rounded-lg flex flex-col h-full">
-                <h3 class="text-lg font-serif text-gray-900 mb-8">Prompt Library</h3>
+                <h3 class="text-lg font-serif text-gray-900 mb-8">Market Intelligence</h3>
                 <div class="flex-1 flex items-center justify-center mb-8">
                     <div class="bg-white p-4 rounded shadow-sm w-full max-w-[200px] space-y-2">
                         <div class="h-2 bg-gray-100 rounded w-1/3 mb-4"></div>
@@ -43,13 +43,13 @@
                     </div>
                 </div>
                 <p class="text-xs text-gray-500 leading-relaxed mt-auto">
-                    Choose from our library of professionally written prompts aimed at automating your common workflows end-to-end.
+                    Track pricing trends, lender appetite, and structural shifts across the market. Understand where deals are getting done and at what terms.
                 </p>
             </div>
 
-            <!-- Guided Implementation -->
+            <!-- Defensible Pricing -->
             <div class="bg-gray-50 p-8 rounded-lg flex flex-col h-full">
-                <h3 class="text-lg font-serif text-gray-900 mb-8">Guided Implementation</h3>
+                <h3 class="text-lg font-serif text-gray-900 mb-8">Defensible Pricing</h3>
                 <div class="flex-1 flex items-center justify-center mb-8">
                     <div class="flex -space-x-2">
                         <div class="h-10 w-10 rounded-full bg-blue-100 border-2 border-white flex items-center justify-center text-blue-600 text-xs">A</div>
@@ -58,13 +58,13 @@
                     </div>
                 </div>
                 <p class="text-xs text-gray-500 leading-relaxed mt-auto">
-                    White-glove engagement and implementation with our team of ex-bankers and private equity investors.
+                    Back up your pricing decisions with real market data. Show credit committees and clients exactly where your terms fall relative to comparable deals.
                 </p>
             </div>
 
-            <!-- Custom-Trained Models -->
+            <!-- Middle Market Focus -->
             <div class="bg-gray-50 p-8 rounded-lg flex flex-col h-full">
-                <h3 class="text-lg font-serif text-gray-900 mb-8">Custom-Trained Models</h3>
+                <h3 class="text-lg font-serif text-gray-900 mb-8">Middle Market Focus</h3>
                 <div class="flex-1 flex items-center justify-center mb-8">
                     <div class="relative">
                         <!-- Tree structure visualization -->
@@ -77,18 +77,18 @@
                             <div class="h-8 w-px bg-gray-300"></div>
                         </div>
                         <div class="flex justify-center">
-                            <div class="h-8 w-8 bg-[#0B231E] rounded flex items-center justify-center text-white text-xs">AI</div>
+                            <div class="h-8 w-8 bg-primary-800 rounded flex items-center justify-center text-white text-xs">MM</div>
                         </div>
                     </div>
                 </div>
                 <p class="text-xs text-gray-500 leading-relaxed mt-auto">
-                    Custom-trained LLMs built for finance, using professionally labeled data tailored to the workflows and precision standards of investment banking.
+                    Purpose-built for the middle market and club space. We capture the deals that matter to your business, not just the mega-deals covered by everyone else.
                 </p>
             </div>
 
-            <!-- Governance & Permissions -->
+            <!-- Trusted Benchmarks -->
             <div class="bg-gray-50 p-8 rounded-lg flex flex-col h-full">
-                <h3 class="text-lg font-serif text-gray-900 mb-8">Governance & Permissions</h3>
+                <h3 class="text-lg font-serif text-gray-900 mb-8">Trusted Benchmarks</h3>
                 <div class="flex-1 flex items-center justify-center mb-8">
                     <div class="bg-white p-4 rounded shadow-sm w-full max-w-[200px]">
                         <div class="flex justify-between mb-4">
@@ -104,17 +104,17 @@
                     </div>
                 </div>
                 <p class="text-xs text-gray-500 leading-relaxed mt-auto">
-                    Granular permission controls, role-based access management, comprehensive audit trails, and customizable governance policies to streamline compliance and safeguard your data.
+                    Replace gut instinct and anecdotal memory with reliable, structured data. Make confident decisions backed by real market intelligence.
                 </p>
             </div>
 
-            <!-- Single Tenant Deployment -->
+            <!-- Secure & Compliant -->
             <div class="bg-gray-50 p-8 rounded-lg flex flex-col h-full">
-                <h3 class="text-lg font-serif text-gray-900 mb-8">Single Tenant Deployment</h3>
+                <h3 class="text-lg font-serif text-gray-900 mb-8">Secure & Compliant</h3>
                 <div class="flex-1 flex items-center justify-center mb-8">
                     <div class="grid grid-cols-3 gap-1">
                         {#each [1, 2, 3, 4, 5, 6, 7, 8, 9] as i}
-                            <div class={`h-8 w-8 border border-gray-200 ${i === 5 ? 'bg-[#0B231E] flex items-center justify-center' : 'bg-white'}`}>
+                            <div class={`h-8 w-8 border border-gray-200 ${i === 5 ? 'bg-primary-800 flex items-center justify-center' : 'bg-white'}`}>
                                 {#if i === 5}
                                     <div class="h-2 w-2 bg-white rounded-full"></div>
                                 {/if}
@@ -123,7 +123,7 @@
                     </div>
                 </div>
                 <p class="text-xs text-gray-500 leading-relaxed mt-auto">
-                    Flexible deployment options to meet your security and infrastructure needs.
+                    Enterprise-grade security with anonymized data. Your competitive intelligence stays protected while you gain market visibility.
                 </p>
             </div>
         </div>
